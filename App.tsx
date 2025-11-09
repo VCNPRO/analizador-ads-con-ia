@@ -148,6 +148,9 @@ const App: React.FC = () => {
             <div className="max-w-6xl mx-auto">
                 <header className="text-center mb-10">
                     <h1 className="text-4xl sm:text-5xl font-bold text-brand-primary mb-2">Analizador SEO con IA</h1>
+                    <p className="text-xl font-semibold text-content-100 mb-2">
+                        Hola Alicia, vamos a ver donde estamos hoy en los ranking de búsqueda de Google frente a los competidores
+                    </p>
                     <p className="text-lg text-content-200">
                         Descubra su posición en los rankings de búsqueda de Google frente a sus competidores.
                     </p>
