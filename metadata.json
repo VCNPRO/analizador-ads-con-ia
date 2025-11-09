@@ -1,0 +1,5 @@
+{
+  "name": "Analizador ads con IA",
+  "description": "Una aplicación para analizar la presencia de sitios web en los resultados de búsqueda de Google para palabras clave específicas, utilizando la API de Gemini para obtener información de SEO.",
+  "requestFramePermissions": []
+}
