@@ -36,11 +36,11 @@ const SummaryChart: React.FC<SummaryChartProps> = ({ data }) => {
                 }}
                 barSize={40}
             >
-                <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                <XAxis dataKey="name" tick={{ fill: '#cbd5e1' }} tickLine={false} axisLine={false} />
-                <YAxis allowDecimals={false} tick={{ fill: '#cbd5e1' }} tickLine={false} axisLine={false} />
+                <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                <XAxis dataKey="name" tick={{ fill: '#4b5563' }} tickLine={false} axisLine={false} />
+                <YAxis allowDecimals={false} tick={{ fill: '#4b5563' }} tickLine={false} axisLine={false} />
                 <Tooltip content={<CustomTooltip />} cursor={{fill: 'rgba(59, 130, 246, 0.1)'}} />
-                <Legend wrapperStyle={{ color: '#f8fafc' }} />
+                <Legend wrapperStyle={{ color: '#111827' }} />
                 <Bar dataKey="appearances" name="Apariciones" fill="#3b82f6" radius={[4, 4, 0, 0]} />
             </BarChart>
         </ResponsiveContainer>

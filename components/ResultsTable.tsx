@@ -94,8 +94,8 @@ const ResultsTable: React.FC<ResultsTableProps> = ({ data, myWebsite }) => {
                                             rankTextClass += ' text-yellow-400';
                                             cellClassName += ' border-l-4 border-yellow-400';
                                         } else if (result.rank === 2) {
-                                            rankTextClass += ' text-slate-300';
-                                            cellClassName += ' border-l-4 border-slate-300';
+                                            rankTextClass += ' text-slate-600';
+                                            cellClassName += ' border-l-4 border-slate-600';
                                         } else if (result.rank === 3) {
                                             rankTextClass += ' text-orange-400';
                                             cellClassName += ' border-l-4 border-orange-400';
